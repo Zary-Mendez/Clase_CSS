@@ -21,3 +21,32 @@
     padding-inline-start: 4px;
     padding-inline-end: 10px;
 }
+
+.bg{
+    width: 100%;
+    height: 320px;
+    /* background: #8c9eef; */
+    background-color: #8c9eef;
+    background-image: url('../resources/bg/img2.jpg'), url('../resources/bg/img1.jpg');
+    background-repeat: repeat, no-repeat;
+    /* background-size: 100% 320px; */
+    background-size: 50px, cover;
+    background-position: 90% 300px, 0px;
+}
+
+.border {
+    border: 5px solid #524652;
+    border-width: 10px;
+    border-style: double;
+    border-color: #123bf1;
+    border-left: 16px solid #f11212;
+    border-left-color: #ff0000;
+    border-left-width: 16px;
+    border-left-style: solid;
+    border-right-color: #12f19c;
+    border-bottom-color: #ff01ff;
+
+    border-radius: 50%;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
